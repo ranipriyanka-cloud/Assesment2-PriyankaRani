@@ -1,32 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\TAFE_Learning\\Week3\\Assessment2\\myWebApp\\myWebApp.csproj": {}
+    "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/myWebApp.csproj": {}
   },
   "projects": {
-    "C:\\TAFE_Learning\\Week3\\Assessment2\\myWebApp\\myWebApp.csproj": {
+    "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/myWebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\TAFE_Learning\\Week3\\Assessment2\\myWebApp\\myWebApp.csproj",
+        "projectUniqueName": "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/myWebApp.csproj",
         "projectName": "myWebApp",
-        "projectPath": "C:\\TAFE_Learning\\Week3\\Assessment2\\myWebApp\\myWebApp.csproj",
-        "packagesPath": "C:\\Users\\priya\\.nuget\\packages\\",
-        "outputPath": "C:\\TAFE_Learning\\Week3\\Assessment2\\myWebApp\\obj\\",
+        "projectPath": "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/myWebApp.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\priya\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,11 +32,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.410/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
