@@ -1,0 +1,7 @@
+/workspaces/Assesment2-PriyankaRani/myWebApp/bin/Release/net8.0/publish/myWebApp
+/workspaces/Assesment2-PriyankaRani/myWebApp/bin/Release/net8.0/publish/appsettings.Development.json
+/workspaces/Assesment2-PriyankaRani/myWebApp/bin/Release/net8.0/publish/appsettings.json
+/workspaces/Assesment2-PriyankaRani/myWebApp/bin/Release/net8.0/publish/myWebApp.dll
+/workspaces/Assesment2-PriyankaRani/myWebApp/bin/Release/net8.0/publish/myWebApp.deps.json
+/workspaces/Assesment2-PriyankaRani/myWebApp/bin/Release/net8.0/publish/myWebApp.runtimeconfig.json
+/workspaces/Assesment2-PriyankaRani/myWebApp/bin/Release/net8.0/publish/myWebApp.pdb
