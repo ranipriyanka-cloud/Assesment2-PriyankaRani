@@ -6,7 +6,7 @@
             "request": "launch",
             "preLaunchTask": "docker-run: debug",
             "netCore": {
-                "appProject": "${workspaceFolder}/Dotnet-Project/myWebApp/myWebApp.csproj"
+                "appProject": "${workspaceFolder}/myWebApp/myWebApp.csproj"
             }
         }
     ]

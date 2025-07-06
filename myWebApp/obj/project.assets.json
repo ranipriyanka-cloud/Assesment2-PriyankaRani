@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/myWebApp.csproj",
+      "projectUniqueName": "/workspaces/Assesment2-PriyankaRani/myWebApp/myWebApp.csproj",
       "projectName": "myWebApp",
-      "projectPath": "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/myWebApp.csproj",
+      "projectPath": "/workspaces/Assesment2-PriyankaRani/myWebApp/myWebApp.csproj",
       "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/Assesment2-PriyankaRani/Dotnet-Project/myWebApp/obj/",
+      "outputPath": "/workspaces/Assesment2-PriyankaRani/myWebApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/codespace/.nuget/NuGet/NuGet.Config"

@@ -5,7 +5,7 @@ services:
     image: mywebapp
     build:
       context: .
-      dockerfile: Dotnet-Project/myWebApp/Dockerfile
+      dockerfile: myWebApp/Dockerfile
       args:
         - configuration=Debug
     ports:

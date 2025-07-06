@@ -8,10 +8,10 @@ USER app
 FROM --platform=$BUILDPLATFORM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG configuration=Release
 WORKDIR /src
-COPY ["Dotnet-Project/myWebApp/myWebApp.csproj", "Dotnet-Project/myWebApp/"]
-RUN dotnet restore "Dotnet-Project/myWebApp/myWebApp.csproj"
+COPY ["myWebApp/myWebApp.csproj", "myWebApp/"]
+RUN dotnet restore "myWebApp/myWebApp.csproj"
 COPY . .
-WORKDIR "/src/Dotnet-Project/myWebApp"
+WORKDIR "/src/myWebApp"
 RUN dotnet build "myWebApp.csproj" -c $configuration -o /app/build
 
 FROM build AS publish

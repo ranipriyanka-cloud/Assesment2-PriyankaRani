@@ -10,12 +10,12 @@
 			"dockerBuild": {
 				"tag": "assesment2priyankarani:dev",
 				"target": "base",
-				"dockerfile": "${workspaceFolder}/Dotnet-Project/myWebApp/Dockerfile",
+				"dockerfile": "${workspaceFolder}/myWebApp/Dockerfile",
 				"context": "${workspaceFolder}",
 				"pull": true
 			},
 			"netCore": {
-				"appProject": "${workspaceFolder}/Dotnet-Project/myWebApp/myWebApp.csproj"
+				"appProject": "${workspaceFolder}/myWebApp/myWebApp.csproj"
 			}
 		},
 		{
@@ -26,7 +26,7 @@
 			],
 			"dockerBuild": {
 				"tag": "assesment2priyankarani:latest",
-				"dockerfile": "${workspaceFolder}/Dotnet-Project/myWebApp/Dockerfile",
+				"dockerfile": "${workspaceFolder}/myWebApp/Dockerfile",
 				"context": "${workspaceFolder}",
 				"platform": {
 					"os": "linux",
@@ -35,7 +35,7 @@
 				"pull": true
 			},
 			"netCore": {
-				"appProject": "${workspaceFolder}/Dotnet-Project/myWebApp/myWebApp.csproj"
+				"appProject": "${workspaceFolder}/myWebApp/myWebApp.csproj"
 			}
 		},
 		{
@@ -46,7 +46,7 @@
 			],
 			"dockerRun": {},
 			"netCore": {
-				"appProject": "${workspaceFolder}/Dotnet-Project/myWebApp/myWebApp.csproj",
+				"appProject": "${workspaceFolder}/myWebApp/myWebApp.csproj",
 				"enableDebugging": true
 			}
 		},
@@ -58,7 +58,7 @@
 			],
 			"dockerRun": {},
 			"netCore": {
-				"appProject": "${workspaceFolder}/Dotnet-Project/myWebApp/myWebApp.csproj"
+				"appProject": "${workspaceFolder}/myWebApp/myWebApp.csproj"
 			}
 		}
 	]
